@@ -163,6 +163,42 @@ BEW VIRSIN WALE KO KAYA KARNA HIA  v0.3.0 likha hai waha new virsin ka name de d
 
 # 🛑🛑REFRECE K LIYE OLD VISEO DEKHE 🛑🛑
 
+## 🛑🛑 UPDATE YOUR PIPE NODE 🛑🛑
+
+```
+sudo systemctl stop popcache
+```
+```
+cd /opt/popcache
+```
+```
+sudo mv pop pop-old
+```
+```
+sudo wget https://download.pipe.network/static/pop-v0.3.1-linux-x64.tar.gz
+```
+```
+sudo tar -xzf pop-v0.3.1-linux-x64.tar.gz
+sudo chmod +x /opt/popcache/pop
+```
+```
+sudo systemctl start popcache
+```
+
+
+🛑Optional cmds🛑
+
+Check Version 
+
+```
+/opt/popcache/pop --version
+```
+```
+Logs - tail -f /opt/popcache/logs/stdout.log
+```
+
+----------------------------------------------------------
+
                                        ## 🛑🛑 AZTEC NODE SOLUTIO 🛑🛑
 
 
