@@ -5,5 +5,5 @@
 
 #### 🛑FIRST WATCH VIDEO 🎥🎥
 ----------------------------------------------------------------------
-| 🛑 IF YOU ARE NEW USER THEN THEN WATCH NEW USER VIDEO IN CHANLLE🛑 |
+| # 🛑IF YOU ARE NEW USER THEN THEN WATCH NEW USER VIDEO IN CHANLLE🛑 |
 |---------------------------------------------------------------------|
