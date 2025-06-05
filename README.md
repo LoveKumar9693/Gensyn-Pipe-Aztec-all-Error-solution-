@@ -153,7 +153,42 @@ sudo tar -xzf pop-v0.3.0-linux-*.tar.gz
 ```
 sudo chmod +x /opt/popcache/pop
 ```
-BEW VIRSIN WALE KO KAYA KARNA HIA  v0.3.0 likha hai waha new virsin ka name de do 
+
+#### 🛑🛑LOGS CHECK KARTE TIME ERROR AAYE TO VIDEO ME DEKHO KAYA ERROR AAYA HAI 🛑🛑
+
+```
+sudo chown root:root /opt/popcache/config.json
+sudo chmod 644 /opt/popcache/config.json
+```
+```
+sudo nano /etc/systemd/system/popcache.service
+```
+```
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=/opt/popcache
+ExecStart=/opt/popcache/pop
+Restart=always
+RestartSec=5
+LimitNOFILE=65535
+StandardOutput=append:/opt/popcache/logs/stdout.log
+StandardError=append:/opt/popcache/logs/stderr.log
+Environment=POP_CONFIG_PATH=/opt/popcache/config.json
+Environment=POP_INVITE_CODE=INVITE CODE 
+```
+```
+sudo systemctl daemon-reexec
+sudo systemctl daemon-reload
+sudo systemctl restart popcache
+```
+```
+sudo systemctl status popcache
+```
+
+
+NEW VERSION  WALE KO KAYA KARNA HIA  v0.3.0 likha hai waha new virsin ka name de do 
 
 
 #### NOTE - AAPNE JO FILE DOWNLOD KIYA HAI AUR YE JO COOMAND ME FILE NAME HAI SAME HONA CHIYE AUR YE SARA PROSEES APKO APNE VPS ME FILE TRANSFER KARNE K BAAD KARNA HAI 
