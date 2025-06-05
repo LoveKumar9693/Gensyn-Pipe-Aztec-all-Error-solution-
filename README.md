@@ -133,10 +133,10 @@ sudo rm -rf /opt/popcache  # Deletes the 'popcache' binary
 sudo rm -f config.json  # Deletes the 'node_info.json' file
 ```
 
-###AB WAPSA SE INSTALL KARO 
+### AB WAPSA SE INSTALL KARO 
 
 
-###FILE CHECK ERROE CODE 👇👇
+### FILE CHECK ERROE CODE 👇👇
 
 # 🛑🛑 AGAR UPPER WALA COMMAND WORK NA KARE TO YE WALA USE KARNA 🛑🛑
 ```
