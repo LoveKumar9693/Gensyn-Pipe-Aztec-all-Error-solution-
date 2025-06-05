@@ -18,4 +18,4 @@
 <img src="problem1.jpg" width="500px" alt="Terminate Problem">
 
 > ⚠️ **Must save your `swarm.pem` file before deleting the node.**  
-> 📦 [How to back it up? Click here.](https://github.com/HustleAirdrops/Gensyn_Guide_with_all_solutions/blob/main/README.md#-backup-credentials)
+> 📦 [How to back it up? Click here.]([https://github.com/HustleAirdrops/Gensyn_Guide_with_all_solutions/blob/main/README.md#-backup-credentials](https://github.com/HustleAirdrops/Gensyn_Guide_with_all_solutions/blob/main/problem1.jpg))
